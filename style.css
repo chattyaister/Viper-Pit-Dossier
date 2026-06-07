@@ -145,9 +145,9 @@ footer {
     margin: 30px auto;
 
     border: 0px solid #7c3aed;
-    border-radius: 10px;
+    border-radius: 0px;
 
-    box-shadow: 0 0 25px rgba(124, 58, 237, 0.3);
+    box-shadow: 0 0 0px rgba(124, 58, 237, 0.3);
     }
 
 .profile-card {
