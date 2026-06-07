@@ -8,8 +8,7 @@ body {
 .site-header {
     text-align: center;
     padding: 50px 20px;
-    border-bottom: 2px solid #6d28d9;
-    background: linear-gradient(#13001f, #080808);
+    border-bottom: 0px solid #6d28d9;
 }
 
 .access-warning {
