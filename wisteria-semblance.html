@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wisteria Semblance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <p class="access-warning">CLASSIFIED RECORD</p>
+        <h1>WISTERIA "The Viper" </h1>
+        <p class="subtitle">Subject File 001-B — Origin Record</p>
+    </header>
+
+    <main class="profile-page">
+
+        <a href="wisteria.html" class="back-link">← Return to Subject File</a>
+          
+ <section class="profile-card">
+            <h2>Semblance: Tainted Aura</h2>
+            <p>
+                Her semblance is “Tainted Aura”, that is injected through a bite into her enemies. Her aura, once in the enemy’s system, will linger and cause intense, debilitating neurological pain in the target, that can only be quelled by having Wisteria stabilize her Aura that has taken root within them. The pain is immense, most average person becoming desperate for relief- relief that only Wisteria or time provides. 
+            </p>
+
+            <p>
+                Her aura fades inside the infected target over time, disappearing completely from the system in approximately two weeks. However, every time Wisteria manually stabilizes her aura within the target, the two week timer is reset. A person with enough pain tolerance and willpower can fight through two weeks to be free of her semblance, or potentially become dependent on her for relief.
+            </p>
+            <p> 
+                Her semblance cannot be used on enemies with their aura shield intact, and can only infect people post-combat after the targets aura shield has already been broken. This makes her semblance non-viable for combat use, and it’s mostly used to control people she has already bested in battle… Or simply for her amusement.
+            </p>
+            <p>
+                Each bite costs 30% of her aura, and has a hard limit of 3 bites a day, and cannot be used even if her aura has recharged past 30%. She can bite three times consecutively, however it leaves her with miniscule Aura for protection, so she’s more likely to spread her bites out throughout the day.
+            </p>
+            <p>
+                She can only have 15 people infected at once, and to infect new people with her tainted aura, she’d have to drop someone already infected.
+            </p>
+        </section>
+
+    <script>
+    const cards = document.querySelectorAll(".profile-card");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            }
+        });
+    });
+
+    cards.forEach(card => observer.observe(card));
+</script>
+            
+        </section>
+
+    </main>
+    
+</body>
+</html>
+
+<link rel="stylesheet" href="style.css">
