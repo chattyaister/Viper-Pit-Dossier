@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aluran Semblance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <p class="access-warning">CLASSIFIED RECORD</p>
+         <h1 class="typewriter">ALURAN "THE DOCTOR"</h1>
+        <p class="subtitle">Subject File 002-C — Semblance Archive</p>
+    </header>
+
+    <main class="profile-page">
+
+        <a href="wisteria.html" class="back-link">← Return to Subject File</a>
+          
+ <section class="profile-card">
+            <h2>Semblance: Shadow’s Embrace</h2>
+            <p>
+                Aluran’s semblance allows him to, in a wisp of shadows and tendrils, transport themselves and an ally he is in contact with, if needed to a new location that is within his line of sight. When teleporting, black-violet ink-like wisps wrap around him, before dropping down and fading to nothing.            </p>
+
+            <p>
+                Each teleportation costs approximately 5% of his aura per body teleported- in essence, he can teleport by himself 20 consecutive times before running out of aura, or if he has one other person, he will only be able to teleport 10 times consecutively before running out of aura.
+            </p>
+            <p> 
+                They cannot teleport where they cannot see- blocking his line of sight is an effective way to prevent his teleportation semblance. A blindfold is enough to inhibit the use of his semblance.            </p>
+            <p>
+                The maximum range of a single teleportation is approximately 100 ft from his current location.
+            </p>
+            
+        </section>
+
+    <script>
+    const cards = document.querySelectorAll(".profile-card");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            }
+        });
+    });
+
+    cards.forEach(card => observer.observe(card));
+</script>
+            
+        </section>
+
+    </main>
+    
+</body>
+</html>
+
+<link rel="stylesheet" href="style.css">
