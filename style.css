@@ -5,6 +5,18 @@ body {
     font-family: Georgia, serif;
 }
 
+body {
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)
+        ),
+        url("Scales.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
 .site-header {
     text-align: center;
     padding: 50px 20px;
@@ -27,6 +39,8 @@ h1 {
     color: #aaaaaa;
     font-style: italic;
 }
+
+
 
 .archive {
     max-width: 1000px;
