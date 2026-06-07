@@ -100,3 +100,39 @@ footer {
     padding: 30px;
     border-top: 1px solid #222222;
 }
+
+.profile-page {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.back-link {
+    color: #c084fc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    color: white;
+}
+
+.profile-card {
+    background: #151515;
+    border: 1px solid #333333;
+    border-left: 6px solid #7c3aed;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 25px;
+    box-shadow: 0 0 20px rgba(124, 58, 237, 0.12);
+}
+
+.profile-card h2 {
+    color: #ddd6fe;
+    margin-top: 0;
+}
+
+.warning-card {
+    border-left-color: #dc2626;
+    background: #1a0d0d;
+}
