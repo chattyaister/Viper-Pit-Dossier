@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zadkiel Dossier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+        <p class="access-warning">RESTRICTED FILE ACCESSED</p>
+   <h1 class="typewriter">ZADKIEL "THE SHEEP"</h1>
+        <p class="subtitle">Subject File 003 — The Support/Healer</p>
+    </header>
+
+      <div class="header-divider"></div>
+
+    <div class="spotify-container">
+    <iframe
+        data-testid="embed-iframe"
+        style="border-radius:12px"
+        src="https://open.spotify.com/embed/playlist/4uLlpwWGoje8AgZzPw1YHa?utm_source=generator&theme=0"
+        width="50%"
+        height="152"
+        frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy">
+    </iframe>
+</div>
+    <main class="profile-page">
+
+        <a href="index.html" class="back-link">← Return to Archive</a>
+
+        <header class="site-header">
+        <h2> "Do you need help? I can help." </h2>
+    </header>
+        
+<section class="profile-card">
+    <h2>Subject Photograph</h2>
+
+    <img src="Zadkiel.png" alt="Zadkiel" class="portrait">
+</section>
+
+        <section class="profile-card warning-card">
+            <h2>Field Warning</h2>
+            <p>
+                Do not engage alone when the Viper and the Doctor are present.
+            </p>
+        </section>
+ <div class="profile-grid">            
+        <section class="profile-card">
+            <h2>Identity</h2>
+            <p><strong>Alias:</strong> The Sheep</p>
+            <p><strong>Age:</strong> 19</p>
+            <p><strong>Height:</strong> 5'0"</p>
+            <p><strong>Weight:</strong> 100 pounds</p>
+            <p><strong>Status:</strong> Unknown</p>
+            <p><strong>Role:</strong> Support/Healer</p>
+            <p><strong>Affiliation:</strong> The Viper Pit</p>
+        </section>
+<section class="profile-card">
+    <h2>Insignia</h2>
+
+    <img src="Zadkiel Insig.png" alt="Wisteria" class="portrait">
+ </div>
+
+
+                <section class="profile-card">
+            <h2>Psychological Assessment</h2>
+            <p>
+                Quite pleasant, he is a soft spoken and gentle soul who loves to help out where he can. He helps anyone he can help without question, without considering whether the person he’s assisting is good or bad. It makes him quite easy to manipulate.
+            </p>
+            
+            <p>
+                He is generally calm, and likes to partake in quiet activities like listening to soft music, sitting out in nature, talking to and feeding wildlife, etc. he also likes to hang in places like parks, listening to people go by as he enjoys a sweet drink or two. 
+            </p>
+            
+            <p>
+                Though he enjoys the company of others, he does not like crowded, noisy places like bars or cafeterias, as they get very quickly overwhelming for his sensitive ears. When overwhelmed, he hides away alone to try and calm his senses.
+            </p>
+
+            <P>
+                He is blissfully unaware, seeing the best in people whether they deserve it or not- he has the tendency to misinterpret intent to fit his endlessly positive world view. He is naive and confused, unable to see the evil that surrounds him.
+            </P>
+        </section>
+
+        
+<header class="site-header">
+        <h2> "Are you alright?." </h2>
+    </header>
+        
+        <div class="profile-grid">            
+        <section class="profile-card">
+            <h2>Likes</h2>
+            <p><strong>Sweets.</strong>.</p>
+            <p><strong>Helping out.</strong>.</p>
+            <p><strong>Animals (especially small animals).</strong>.</p>
+            <p><strong>Company.</strong>.</p>
+        </section>
+            
+        <section class="profile-card">
+            <h2>Dislikes</h2>
+            <p><strong>Being unable to help when needed.</strong>.</p>
+            <p><strong>Feeling helpless.</strong> .</p>
+        </section>
+
+                     </section>           
+        <section class="profile-card">
+            <h2>Good Habits</h2>
+            <p> </p>
+        </section>
+
+         </section>           
+        <section class="profile-card">
+            <h2>Bad Habits</h2>
+            <p> </p>
+        </section>
+               
+        <section class="profile-card">
+            <h2>Secrets</h2>
+            <p> </p>
+            
+
+        </section>           
+        <section class="profile-card">
+            <h2>Fears</h2>
+            <p> </p>
+          
+            </div>
+
+        <header class="site-header">
+        <h2> "Stay safe!" </h2>
+    </header>
+
+<h2>Dossier Files</h2>
+
+        <a href="zadkiel-bio.html" class="file-button">
+    Recovered History Files
+</a>
+        
+<a href="zadkiel-semblance.html" class="file-button">
+    Recovered Semblance Archive
+</a>
+        
+<a href="zadkiel-combat.html" class="file-button">
+    Recovered Combat Notes
+</a>
+        
+        <script>
+    const cards = document.querySelectorAll(".profile-card");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            }
+        });
+    });
+
+    cards.forEach(card => observer.observe(card));
+</script>
+        
+</body>
+</html>
+
