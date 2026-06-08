@@ -340,13 +340,6 @@ footer {
     text-align: center;
     margin: 20px 0;
 
-    .reveal-quote {
-    opacity: 0;
-    filter: blur(8px);
-
-    transition:
-        opacity 1.2s ease,
-        filter 1.2s ease;
 }
 
 .reveal-quote {
@@ -355,9 +348,9 @@ footer {
     transform: translateY(10px);
 
     transition:
-        opacity 1.5s ease 0.3s,
-        filter 1.5s ease 0.3s,
-        transform 1.5s ease 0.3s;
+        opacity 1.5s ease,
+        filter 1.5s ease,
+        transform 1.5s ease;
 }
 
 .reveal-quote.show {
