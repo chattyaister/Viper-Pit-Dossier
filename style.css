@@ -349,7 +349,9 @@ footer {
         filter 1.2s ease;
 }
 
-.reveal-quote.show {
-    opacity: 1;
-    filter: blur(0);
+.reveal-quote {
+    transition:
+        opacity 1.5s ease 0.3s,
+        filter 1.5s ease 0.3s,
+        transform 1.5s ease 0.3s;
 }
