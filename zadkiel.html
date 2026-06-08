@@ -150,8 +150,10 @@
         </div>
         </div>
         
-        <script>
-    const cards = document.querySelectorAll(".profile-card");
+  
+        
+<script>
+    const reveals = document.querySelectorAll(".profile-card, .reveal-quote");
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
@@ -161,9 +163,9 @@
         });
     });
 
-    cards.forEach(card => observer.observe(card));
+    reveals.forEach(item => observer.observe(item));
 </script>
-        
+
 </body>
 </html>
 
