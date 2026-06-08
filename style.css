@@ -331,3 +331,23 @@ footer {
 .site-header p {
     margin: 5px 0;
 }
+
+
+
+
+
+.site-header {
+    border: 2px solid red;
+}
+
+.site-header h1 {
+    border: 2px solid blue;
+}
+
+.subtitle {
+    border: 2px solid green;
+}
+
+.header-divider {
+    border: 2px solid yellow;
+}
