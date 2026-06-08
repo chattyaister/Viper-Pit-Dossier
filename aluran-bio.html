@@ -53,8 +53,9 @@
           <p>It was under her, he’d develop his signature drugs, “Hush” and “Venom”, prototypes to his ideals, that the Viper Pit would make good use of.</p>
           <p>To this day, he continues his experiments.</p>
           
-    <script>
-    const cards = document.querySelectorAll(".profile-card");
+            
+<script>
+    const reveals = document.querySelectorAll(".profile-card, .reveal-quote");
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
@@ -64,7 +65,7 @@
         });
     });
 
-    cards.forEach(card => observer.observe(card));
+    reveals.forEach(item => observer.observe(item));
 </script>
             
         </section>
