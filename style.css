@@ -332,4 +332,14 @@ footer {
     margin: 5px 0;
 }
 
+.character-quote {
+    font-style: italic;
+    font-size: 1.1em;
 
+    color: #d8b4fe;
+
+    border-left: 3px solid #7c3aed;
+
+    padding-left: 15px;
+
+    margin: 20px 0;
