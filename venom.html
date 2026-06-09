@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aluran Biography</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <p class="access-warning">CLASSIFIED RECORD</p>
+         <h1 class="typewriter">ALURAN "THE DOCTOR"</h1>
+        <p class="subtitle">Subject File 002-B — Origin Record</p>
+        <div class="header-divider"></div>
+    </header>
+
+    <main class="profile-page">
+
+        <a href="aluran.html" class="back-link">← Return to Subject File</a>
+
+        <p class="character-quote reveal-quote">
+</p>
+        
+        <section class="profile-card bio-text">
+            <h2>VENOM</h2>
+<p>“Venom” comes in the form of a little red crystal shaped like a drop, which is swallowed whole for an immediate effect. </p>
+<p>The crystal upon consumption enhances the physicals of the consumer. The enhancement has the physiological effect of: </p>         
+          
+            
+<script>
+    const reveals = document.querySelectorAll(".profile-card, .reveal-quote");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            }
+        });
+    });
+
+    reveals.forEach(item => observer.observe(item));
+</script>
+            
+        </section>
+
+    </main>
+    
+</body>
+</html>
+
+<link rel="stylesheet" href="style.css">
